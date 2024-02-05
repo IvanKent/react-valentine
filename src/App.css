@@ -137,3 +137,90 @@
   font-size: 50px;
   margin-top: -50px;
 }
+
+@media only screen and (max-width: 500px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: auto 20px;
+  }
+  /* Styles for iPhone 14 or similar */
+  .imgPic{
+    height: 300px;
+    /* width: 0px; */
+    object-fit: fill;
+    border-radius: 15px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .valentine{
+    color: red;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding: 0;
+  }
+  
+  
+  .yes{
+    background-color: green;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid green;
+    color: white;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: color .3s, background-color .3s;
+    cursor: pointer;
+  }
+  
+  .no{
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid green;
+    color: white;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 20px;
+    transition: background-color .3s, color .3s;
+    cursor: pointer;
+  }
+
+  .buttonSchedule{
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid green;
+    color: white;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 20px;
+    transition: background-color .3s, color .3s;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-bottom: 100px;
+  }
+  .buttonBook{
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid green;
+    color: white;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 20px;
+    transition: background-color .3s, color .3s;
+    cursor: pointer;
+  }
+
+
+  .doneText{
+    font-family: "Protest Riot", sans-serif;
+    color: red;
+    font-size: 40px;
+  }
+}
